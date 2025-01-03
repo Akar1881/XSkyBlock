@@ -1,0 +1,26 @@
+settings:
+  price-per-one-block: 20.0
+  delete-island-refund-percentage: 50
+  default-island-size: 9
+  max-island-size: 101
+  min-island-distance: 10
+
+messages:
+  prefix: "&8[&bXMyIsland&8] "
+  no-permission: "&cYou don't have permission to do this!"
+  island-claimed: "&aSuccessfully claimed your island!"
+  island-exists: "&cYou already have an island!"
+  border-shown: "&aBorder particles are now visible!"
+  border-hidden: "&aBorder particles are now hidden!"
+  player-trusted: "&aPlayer %player% has been trusted to your island!"
+  player-untrusted: "&cPlayer %player% has been removed from your trusted list!"
+  island-deleted: "&cYour island has been deleted and you've been refunded %amount%!"
+  island-expanded: "&aYour island has been expanded to %size%x%size%!"
+  no-entry-permission: "&cYou don't have permission to enter this island!"
+  insufficient-funds: "&cYou don't have enough money for this action!"
+  max-size-reached: "&cYour island has reached the maximum size!"
+  cannot-trust-self: "&cYou cannot trust yourself!"
+  already-trusted-elsewhere: "&cYou cannot claim an island while being trusted on another island!"
+  owns-island: "&cThis player already owns an island!"
+  island-overlap: "&cYou cannot claim an island here as it would overlap with another island! Please choose a different location."
+  expand-overlap: "&cCannot expand your island as it would overlap with another island! Please contact an admin for assistance."

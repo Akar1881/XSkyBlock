@@ -1,0 +1,10 @@
+name: XMyIsland
+version: 1.0
+main: com.xmyisland.XMyIsland
+api-version: 1.17
+depend: [Vault]
+commands:
+  xmi:
+    description: Main command for XMyIsland plugin
+    usage: /<command> [subcommand]
+    aliases: [xmyisland]

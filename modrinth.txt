@@ -1,0 +1,65 @@
+# XMyIsland
+
+A comprehensive island management plugin that brings robust protection, intuitive GUI management, and economy integration to your Minecraft server.
+
+## 🌟 Key Features
+
+### Island Management
+- Create personal islands with customizable sizes
+- Visual border particles for easy boundary identification
+- Expandable islands with economy integration
+- Intuitive GUI-based management system
+
+### Advanced Protection Systems
+- Complete grief prevention
+- Protection against:
+  - Explosions
+  - Liquid flow
+  - Redstone manipulation
+  - Piston mechanics
+  - Tree growth exploitation
+  - Falling block abuse
+  - Wither damage
+
+### Trust System
+- Detailed permission management
+- GUI-based trust controls
+- Per-player permission settings
+- Multiple permission types:
+  - Block breaking/placing
+  - Chest access
+  - PvP controls
+  - Entity interaction
+  - And more!
+
+### Economy Integration
+- Expansion costs
+- Configurable pricing
+- Refund system for island deletion
+- Full Vault support
+
+## 🔧 Technical Details
+
+- **Version:** 1.17+
+- **Dependencies:** Vault
+- **Permissions:** Automatic handling
+- **Configuration:** Fully configurable
+- **Database:** YAML-based storage
+- **Performance:** Optimized for minimal impact
+
+## 💡 Perfect For
+
+- Survival servers
+- Economy-focused communities
+- PvE servers
+- Community-driven servers
+- Skyblock-style gameplay
+
+## 🤝 Support & Community
+
+- Active issue tracking
+- Regular updates
+- Community-driven development
+- Comprehensive documentation
+
+Experience the next level of island management with XMyIsland!
