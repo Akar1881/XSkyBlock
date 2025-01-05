@@ -1,12 +1,12 @@
 settings:
-  price-per-one-block: 20.0
-  delete-island-refund-percentage: 50
-  default-island-size: 9
+  price-per-one-block: 550
+  delete-island-refund-percentage: 125
+  default-island-size: 13
   max-island-size: 101
   min-island-distance: 10
 
 messages:
-  prefix: "&8[&bXMyIsland&8] "
+  prefix: "&8[&bXSkyBlock&8] "
   no-permission: "&cYou don't have permission to do this!"
   island-claimed: "&aSuccessfully claimed your island!"
   island-exists: "&cYou already have an island!"
@@ -24,3 +24,18 @@ messages:
   owns-island: "&cThis player already owns an island!"
   island-overlap: "&cYou cannot claim an island here as it would overlap with another island! Please choose a different location."
   expand-overlap: "&cCannot expand your island as it would overlap with another island! Please contact an admin for assistance."
+  border-reached: "&cYou've reached your island border! &eExpand your island for &6$%cost% &eby using &6/xmi menu"
+  trusted-border-reached: "&cYou've reached the island border! Only the owner can expand the island."
+  trust-request: "&b%owner% &7wants to trust you on their island &b%island%"
+  trust-request-instructions: "&7Type &aaccept &7to join or &ccancel &7to decline. This request will expire in 15 seconds."
+  trust-request-expired: "&cThe trust request has expired."
+  trust-request-expired-owner: "&c%player% did not respond to your trust request."
+  trust-request-sent: "&aYou have sent a trust request to &b%player%"
+  trust-accepted: "&aYou are now trusted on &b%island%"
+  trust-accepted-owner: "&b%player% &ahas accepted your trust request!"
+  trust-declined: "&cYou have declined the trust request."
+  trust-declined-owner: "&c%player% &chas declined your trust request."
+  no-pending-request: "&cYou don't have any pending trust requests."
+  owner-offline: "&cThe island owner is offline. Trust request cancelled."
+  island-not-found: "&cThe island no longer exists. Trust request cancelled."
+  untrusted-notification: "&cYou are no longer trusted on island &b%island%"

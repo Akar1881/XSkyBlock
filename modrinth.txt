@@ -1,65 +1,85 @@
-# XMyIsland
+# XSkyBlock Plugin
 
-A comprehensive island management plugin that brings robust protection, intuitive GUI management, and economy integration to your Minecraft server.
+## Overview
+XSkyBlock is a feature-rich SkyBlock plugin designed for Minecraft servers, providing players with an immersive island management experience. With a robust trust system, extensive protection features, and seamless integration with economy systems, XSkyBlock enhances gameplay by allowing players to create, manage, and expand their islands while ensuring a secure environment.
 
-## 🌟 Key Features
+## Key Features
+- **Island Creation and Management**: Players can easily create and manage their own islands with intuitive commands and a user-friendly menu.
+- **Trust System**: A comprehensive trust system allows island owners to manage permissions for other players, ensuring that only trusted individuals can access their islands.
+- **Island Expansion**: Players can expand their islands, providing room for growth and creativity.
+- **Border Visualization**: Visual indicators help players understand the boundaries of their islands.
+- **Protection System**: Protects islands from unauthorized actions, including block breaking, entity damage, and more.
+- **Scoreboard Integration**: Customizable scoreboards provide players with real-time information about their islands and activities.
+- **Economy Integration**: Works seamlessly with economy plugins to enhance gameplay and provide financial incentives.
 
-### Island Management
-- Create personal islands with customizable sizes
-- Visual border particles for easy boundary identification
-- Expandable islands with economy integration
-- Intuitive GUI-based management system
+## Initial Setup
+### Setting Up the Island Schematic
+1. Build your starter island in a creative world.
+2. Use WorldEdit to select the island:
+   ```
+   //wand              # Get the WorldEdit wand
+   Left-click          # Set position 1
+   Right-click         # Set position 2
+   ```
+3. Set the spawn point:
+   ```
+   /xmi schem spawn    # Get the spawn point setter tool
+   ```
+   - Break a block inside your island where players will spawn.
+4. Save the schematic:
+   ```
+   /xmi schem change   # Save the current selection as the island schematic
+   ```
+5. Set the lobby location:
+   ```
+   /xmi setlobby      # Sets the current location as the lobby
+   ```
 
-### Advanced Protection Systems
-- Complete grief prevention
-- Protection against:
-  - Explosions
-  - Liquid flow
-  - Redstone manipulation
-  - Piston mechanics
-  - Tree growth exploitation
-  - Falling block abuse
-  - Wither damage
+### Configuration
+- Edit `config.yml` to customize island prices, default and maximum island sizes, and messages.
+- Edit `scoreboard.yml` to customize scoreboard titles and displayed information.
 
-### Trust System
-- Detailed permission management
-- GUI-based trust controls
-- Per-player permission settings
-- Multiple permission types:
-  - Block breaking/placing
-  - Chest access
-  - PvP controls
-  - Entity interaction
-  - And more!
+## Commands
+### Player Commands
+- `/xmi claim <name>` - Create a new island.
+- `/xmi menu` - Open the island management menu.
+- `/xmi border <show|hide>` - Toggle island border visibility.
+- `/xmi trust <add|remove> <player>` - Manage trusted players.
+- `/xmi island` - Open the island navigation menu.
+- `/xmi lobby` - Teleport to the lobby.
 
-### Economy Integration
-- Expansion costs
-- Configurable pricing
-- Refund system for island deletion
-- Full Vault support
+### Admin Commands
+- `/xmi setlobby` - Set the lobby location.
+- `/xmi forcedel` - Force delete an island.
+- `/xmi schem change` - Save the current selection as an island schematic.
+- `/xmi schem spawn` - Set the island spawn point.
 
-## 🔧 Technical Details
+## Trust System
+- Island owners can trust players, who will receive a trust request to join the island.
+- Trusted players can access island facilities based on their permissions and view island information in their scoreboard.
 
-- **Version:** 1.17+
-- **Dependencies:** Vault
-- **Permissions:** Automatic handling
-- **Configuration:** Fully configurable
-- **Database:** YAML-based storage
-- **Performance:** Optimized for minimal impact
+## Island Protection
+The plugin protects islands from:
+- Block breaking/placing by non-trusted players
+- Entity damage
+- Explosions
+- Liquid flow
+- Redstone manipulation
+- Tree growth
+- Falling blocks
+- Wither damage
 
-## 💡 Perfect For
+## Installation
+1. Download the plugin JAR file.
+2. Place it in your server's `plugins` folder.
+3. Start/restart your server.
+4. Configure the plugin settings in `config.yml`.
 
-- Survival servers
-- Economy-focused communities
-- PvE servers
-- Community-driven servers
-- Skyblock-style gameplay
+## License
+GNU General Public License v3.0
 
-## 🤝 Support & Community
+## Support
+For support, please create an issue on our GitHub repository or contact us through our support channels.
 
-- Active issue tracking
-- Regular updates
-- Community-driven development
-- Comprehensive documentation
-
-Experience the next level of island management with XMyIsland!
+## Contributing
+Contributions are welcome! Please feel free to submit a Pull Request.

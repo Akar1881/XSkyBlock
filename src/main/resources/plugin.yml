@@ -1,10 +1,14 @@
-name: XMyIsland
+name: XSkyBlock
 version: 1.0
-main: com.xmyisland.XMyIsland
+main: com.xskyblock.XSkyBlock
 api-version: 1.17
-depend: [Vault]
+depend: [Vault, WorldEdit]
 commands:
   xmi:
-    description: Main command for XMyIsland plugin
+    description: Main command for XSkyBlock plugin
     usage: /<command> [subcommand]
-    aliases: [xmyisland]
+    aliases: [xskyblock, xisland]
+permissions:
+  xskyblock.admin:
+    description: Allows access to admin commands
+    default: op
